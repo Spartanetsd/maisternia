@@ -1,7 +1,9 @@
 /* Автономне кешування всього каталогу для GitHub Pages. */
-const CACHE_NAME = 'maisteria-offline-v1';
+const CACHE_NAME = 'maisteria-offline-design2-3972c1ea64';
 const ASSETS = [
   "./",
+  "./data.json",
+  "./offline-files.json",
   "./index.html",
   "./style.css",
   "./app.js",
@@ -61,12 +63,12 @@ const ASSETS = [
   "./assets/shoe-console-p4.webp"
 ];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE_NAME).then(cache=>cache.addAll(ASSETS)).then(()=>self.skipWaiting()));});
-self.addEventListener('activate',event=>{event.waitUntil(Promise.all([caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE_NAME).map(k=>caches.delete(k)))),self.clients.claim()]));});
+self.addEventListener('activate',event=>{event.waitUntil(Promise.all([caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('maisteria-offline-')&&k!==CACHE_NAME).map(k=>caches.delete(k)))),self.clients.claim()]));});
 self.addEventListener('fetch',event=>{
  if(event.request.method!=='GET')return;
  // iOS PDF viewers often request partial PDF bytes. Serve the correct 206 response even offline.
  if(event.request.headers.has('range') && new URL(event.request.url).pathname.endsWith('.pdf')){
-   event.respondWith(caches.match(event.request.url,{ignoreSearch:true}).then(async cached=>{
+   event.respondWith(caches.open(CACHE_NAME).then(c=>c.match(event.request.url,{ignoreSearch:true})).then(async cached=>{
      if(!cached) return fetch(event.request);
      const all=await cached.arrayBuffer(),total=all.byteLength;
      const match=/bytes=(\d+)-(\d*)/.exec(event.request.headers.get('range')||'');
@@ -76,4 +78,4 @@ self.addEventListener('fetch',event=>{
      return new Response(all.slice(start,end+1),{status:206,statusText:'Partial Content',headers:{'Content-Range':`bytes ${start}-${end}/${total}`,'Accept-Ranges':'bytes','Content-Length':String(end-start+1),'Content-Type':cached.headers.get('Content-Type')||'application/pdf'}});
    }));return;
  }
-const u=new URL(event.request.url);if(u.origin!==location.origin)return;event.respondWith(caches.match(event.request,{ignoreSearch:true}).then(r=>r||fetch(event.request).then(res=>{if(res&&res.ok){const clone=res.clone();caches.open(CACHE_NAME).then(c=>c.put(event.request,clone));}return res}).catch(()=>{if(event.request.mode==='navigate')return caches.match('./index.html');return Response.error();})));});
+const u=new URL(event.request.url);if(u.origin!==location.origin)return;event.respondWith(caches.open(CACHE_NAME).then(c=>c.match(event.request,{ignoreSearch:true})).then(r=>r||fetch(event.request).then(res=>{if(res&&res.ok){const clone=res.clone();caches.open(CACHE_NAME).then(c=>c.put(event.request,clone));}return res}).catch(()=>{if(event.request.mode==='navigate')return caches.open(CACHE_NAME).then(c=>c.match('./index.html'));return Response.error();})));});
