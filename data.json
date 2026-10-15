@@ -1,0 +1,353 @@
+[
+  {
+    "id": "banketka",
+    "title": "Банкетка-шафка",
+    "subtitle": "Для взуття з м’яким сидінням",
+    "category": "Дім",
+    "dim": "1100 × 406 × 705 мм",
+    "description": "Банкетка з відкритою полицею, шафкою та решітчастими дверцятами.",
+    "tags": [
+      "передпокій",
+      "лавка",
+      "взуття",
+      "шафа"
+    ],
+    "colors": [
+      "#F9BFC1",
+      "#E88983"
+    ],
+    "pdf": "pdfs/banketka.pdf",
+    "pages": 7,
+    "cover": "assets/banketka.webp",
+    "previews": [
+      {
+        "file": "assets/banketka-p1.webp",
+        "page": 1
+      },
+      {
+        "file": "assets/banketka-p3.webp",
+        "page": 3
+      },
+      {
+        "file": "assets/banketka-p4.webp",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "garden-bed",
+    "title": "Ярусна грядка",
+    "subtitle": "Три дерев’яні ящики для рослин",
+    "category": "Сад",
+    "dim": "936 × 960 × 1050 мм",
+    "description": "Компактна триярусна конструкція для зелені, салату та полуниці.",
+    "tags": [
+      "грядка",
+      "етажерка",
+      "рослини",
+      "балкон"
+    ],
+    "colors": [
+      "#ACDCA6",
+      "#70B8A2"
+    ],
+    "pdf": "pdfs/garden-bed.pdf",
+    "pages": 6,
+    "cover": "assets/garden-bed.webp",
+    "previews": [
+      {
+        "file": "assets/garden-bed-p1.webp",
+        "page": 1
+      },
+      {
+        "file": "assets/garden-bed-p3.webp",
+        "page": 3
+      },
+      {
+        "file": "assets/garden-bed-p4.webp",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "dining",
+    "title": "Стіл + 4 пуфи",
+    "subtitle": "Комплект зі схованками",
+    "category": "Меблі",
+    "dim": "Стіл 800 × 800 × 750 мм",
+    "description": "Обідній стіл і чотири пуфи-скрині, що ховаються під стільницю.",
+    "tags": [
+      "стіл",
+      "пуф",
+      "кухня",
+      "обід"
+    ],
+    "colors": [
+      "#FFD77D",
+      "#F0AD58"
+    ],
+    "pdf": "pdfs/dining.pdf",
+    "pages": 7,
+    "cover": "assets/dining.webp",
+    "previews": [
+      {
+        "file": "assets/dining-p1.webp",
+        "page": 1
+      },
+      {
+        "file": "assets/dining-p3.webp",
+        "page": 3
+      },
+      {
+        "file": "assets/dining-p4.webp",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "garden-cabinet",
+    "title": "Садова шафа",
+    "subtitle": "Зберігання інвентарю",
+    "category": "Сад",
+    "dim": "940 × 500 × 1830 мм",
+    "description": "Висока шафа з полицями, подвійними дверцятами та місцем для інструментів.",
+    "tags": [
+      "шафа",
+      "лопата",
+      "граблі",
+      "інструмент"
+    ],
+    "colors": [
+      "#C9C1F2",
+      "#A2A5E4"
+    ],
+    "pdf": "pdfs/garden-cabinet.pdf",
+    "pages": 8,
+    "cover": "assets/garden-cabinet.webp",
+    "previews": [
+      {
+        "file": "assets/garden-cabinet-p1.webp",
+        "page": 1
+      },
+      {
+        "file": "assets/garden-cabinet-p3.webp",
+        "page": 3
+      },
+      {
+        "file": "assets/garden-cabinet-p4.webp",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "garden-sofa",
+    "title": "Розбірний диван",
+    "subtitle": "Садовий диван на три місця",
+    "category": "Сад",
+    "dim": "1830 × 840 × 765 мм",
+    "description": "Диван зі спинкою 12°, подушками і болтовими з’єднаннями.",
+    "tags": [
+      "диван",
+      "тераса",
+      "розбірний",
+      "лавка"
+    ],
+    "colors": [
+      "#B6CDE8",
+      "#81A9C7"
+    ],
+    "pdf": "pdfs/garden-sofa.pdf",
+    "pages": 9,
+    "cover": "assets/garden-sofa.webp",
+    "previews": [
+      {
+        "file": "assets/garden-sofa-p1.webp",
+        "page": 1
+      },
+      {
+        "file": "assets/garden-sofa-p3.webp",
+        "page": 3
+      },
+      {
+        "file": "assets/garden-sofa-p4.webp",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "garden-set",
+    "title": "Садовий комплект",
+    "subtitle": "Диван, два крісла і столик",
+    "category": "Сад",
+    "dim": "Диван 1060 × 593 × 800 мм",
+    "description": "Повний набір садових меблів з дерева: двомісний диван, 2 крісла і столик.",
+    "tags": [
+      "крісло",
+      "диван",
+      "столик",
+      "комплект"
+    ],
+    "colors": [
+      "#97DADC",
+      "#66B4C3"
+    ],
+    "pdf": "pdfs/garden-set.pdf",
+    "pages": 13,
+    "cover": "assets/garden-set.webp",
+    "previews": [
+      {
+        "file": "assets/garden-set-p1.webp",
+        "page": 1
+      },
+      {
+        "file": "assets/garden-set-p3.webp",
+        "page": 3
+      },
+      {
+        "file": "assets/garden-set-p4.webp",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "window",
+    "title": "Закриття вікна",
+    "subtitle": "Екстрене закриття прорізу",
+    "category": "Ремонт",
+    "dim": "Розміри під свій проріз",
+    "description": "Покрокова схема тимчасового закриття вибитого вікна або балконного прорізу.",
+    "tags": [
+      "вікно",
+      "osb",
+      "фанера",
+      "ремонт",
+      "безпека"
+    ],
+    "colors": [
+      "#A4C1D9",
+      "#608DAE"
+    ],
+    "pdf": "pdfs/window.pdf",
+    "pages": 4,
+    "cover": "assets/window.svg",
+    "previews": [
+      {
+        "file": "assets/window-p1.webp",
+        "page": 1
+      },
+      {
+        "file": "assets/window-p3.webp",
+        "page": 3
+      },
+      {
+        "file": "assets/window-p4.webp",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "holder-dowel",
+    "title": "Тримач із полицею",
+    "subtitle": "Дерев’яний, на шкантах",
+    "category": "Дім",
+    "dim": "365 × 130 × 370 мм",
+    "description": "Тримач паперу з поличкою та запасом на три рулони; з’єднання на шкантах.",
+    "tags": [
+      "ванна",
+      "санвузол",
+      "тримач",
+      "папір"
+    ],
+    "colors": [
+      "#DBC4F8",
+      "#B68ADD"
+    ],
+    "pdf": "pdfs/holder-dowel.pdf",
+    "pages": 6,
+    "cover": "assets/holder-dowel.webp",
+    "previews": [
+      {
+        "file": "assets/holder-dowel-p1.webp",
+        "page": 1
+      },
+      {
+        "file": "assets/holder-dowel-p3.webp",
+        "page": 3
+      },
+      {
+        "file": "assets/holder-dowel-p4.webp",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "holder-classic",
+    "title": "Настінний тримач",
+    "subtitle": "Полиця і три відділення",
+    "category": "Дім",
+    "dim": "340 × 140 × 440 мм",
+    "description": "Настінний тримач для туалетного паперу з полицею та трьома комірками.",
+    "tags": [
+      "ванна",
+      "полиця",
+      "тримач",
+      "санвузол"
+    ],
+    "colors": [
+      "#F1CFA5",
+      "#E0A874"
+    ],
+    "pdf": "pdfs/holder-classic.pdf",
+    "pages": 7,
+    "cover": "assets/holder-classic.webp",
+    "previews": [
+      {
+        "file": "assets/holder-classic-p1.webp",
+        "page": 1
+      },
+      {
+        "file": "assets/holder-classic-p3.webp",
+        "page": 3
+      },
+      {
+        "file": "assets/holder-classic-p4.webp",
+        "page": 4
+      }
+    ]
+  },
+  {
+    "id": "shoe-console",
+    "title": "Консоль для взуття",
+    "subtitle": "Вузький столик у передпокій",
+    "category": "Меблі",
+    "dim": "1200 × 300 × 800 мм",
+    "description": "Елегантна консоль зі шухлядою та решітчастою полицею для взуття.",
+    "tags": [
+      "консоль",
+      "передпокій",
+      "шухляда",
+      "взуття"
+    ],
+    "colors": [
+      "#AEE4C9",
+      "#6CBDA5"
+    ],
+    "pdf": "pdfs/shoe-console.pdf",
+    "pages": 7,
+    "cover": "assets/shoe-console.webp",
+    "previews": [
+      {
+        "file": "assets/shoe-console-p1.webp",
+        "page": 1
+      },
+      {
+        "file": "assets/shoe-console-p3.webp",
+        "page": 3
+      },
+      {
+        "file": "assets/shoe-console-p4.webp",
+        "page": 4
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 520" fill="none">
+ <defs><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E6C58B"/><stop offset="1" stop-color="#B88448"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="17" stdDeviation="9" flood-opacity=".18"/></filter></defs>
+ <g filter="url(#s)">
+  <path d="M96 84H461V456H96z" fill="#B76646" stroke="#553E2F" stroke-width="11"/>
+  <g stroke="#E8C3A4" stroke-width="3" opacity=".65"><path d="M97 145H461M97 209H461M97 272H461M97 336H461M97 399H461"/><path d="M170 84V145M316 84V145M225 145V209M383 145V209M158 209V272M340 209V272M221 272V336M397 272V336M160 336V399M326 336V399M241 399V455"/></g>
+  <path d="M170 134H395V401H170z" fill="#3A5665" stroke="#4C3530" stroke-width="8"/>
+  <path d="M192 151L374 151L374 388L192 388Z" fill="url(#a)" stroke="#694D30" stroke-width="9"/>
+  <path d="M192 234H374M192 310H374" stroke="#8C623A" stroke-width="6" opacity=".55"/>
+  <g stroke="#865F37" stroke-width="19"><path d="M182 135V404M384 135V404M183 143H384M183 396H384"/></g>
+  <g fill="#D8BC89" stroke="#805F38" stroke-width="2"><circle cx="196" cy="151" r="5"/><circle cx="371" cy="151" r="5"/><circle cx="196" cy="383" r="5"/><circle cx="371" cy="383" r="5"/></g>
+ </g>
+</svg>
